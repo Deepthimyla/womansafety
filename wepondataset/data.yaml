@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['background', 'baseball bat', 'crow bar', 'hammer', 'ice pick', 'long knife', 'pistol', 'pocket-knife', 'rifle']
+
+roboflow:
+  workspace: try-6siwu
+  project: thirdvision-with-blunt-objects-without-sumpak
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/try-6siwu/thirdvision-with-blunt-objects-without-sumpak/dataset/6
